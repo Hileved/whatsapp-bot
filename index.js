@@ -28,7 +28,7 @@ const { PREFIX, VERSION } = require('./config');
 
 async function startBot() {
   try {
-    const sessionId = 'xdd_3130a45e87667f4d'; // Change this to your own unique session ID
+    const sessionId = 'xdd_74a50bb39db3a042'; // Change this to your own unique session ID
 
     const { state, saveCreds } = await usePostgresAuthState(sessionId);
     await config.DATABASE.sync();
